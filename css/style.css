@@ -176,7 +176,7 @@ body {
 
 .card-s p {
     font-size: 18px;
-    color: #626d6b;
+    color: #22281eb3;
     margin-bottom: 0px;
     text-align: justify;
 }
@@ -218,7 +218,7 @@ body {
 {
     margin-bottom: 18px;
     color: #22281e;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 36px;
     font-weight: 600;
     letter-spacing: -0.22px;
@@ -226,7 +226,7 @@ body {
 
 .contact-div .form-control
 {
-    height: 80px;
+    height: 70px;
     margin-bottom: 0px;
     padding: 11px 30px;
     border-style: solid;
@@ -234,7 +234,7 @@ body {
     border-color: rgba(34, 40, 30, 0.06);
     border-radius: 194px;
     background-color: rgb(244, 247, 243);
-    font-size: 22px;
+    font-size: 18px;
     line-height: 58px;
     font-weight: 400;
 }
@@ -271,7 +271,7 @@ body {
 {
     padding: 50px 30px 40px;
     border-bottom: 1px solid rgb(228, 235, 243);
-    background-image: url(../assets/images/footer.png);
+    background-color: #5313e5;
     background-position: 0px 0px;
     background-size: auto;
 }
@@ -283,6 +283,7 @@ body {
     display: flex;
     padding-left: 0;
     list-style-type: none;
+    justify-content: center;
 }
 
 .f-link
@@ -309,21 +310,12 @@ body {
     background-color: rgb(228, 235, 243);
 }
 
-.copy-right
-{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
 .copy-right h5
 {
     font-size: 18px;
     color: #fff;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .legal-link
@@ -414,10 +406,7 @@ body {
     {
         padding: 40px;
     }
-    .contact-div .form-control
-    {
-        height: 70px;
-    }
+
 }
 
 
@@ -542,7 +531,10 @@ body {
     {
         margin-top: 0;
     }
-    
+    .f-link
+    {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
 }
-
 /* Media css end */
