@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo", sans-serif;
+}
+
+.navbar-brand img
+{
+    max-width: 150px;
+}
+
+/* Scrollbar Css */
+
+::-webkit-scrollbar-track
+{
+	background-color: #fff;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #979797;
+}
+
+/* Navbar css start */
+
+.navbar
+{
+    padding: 20px 0;
+}
+
+.nav-link 
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: rgb(26, 27, 31);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Hero section css start */
+
+.hero-sec
+{
+    background-image: url(../assets/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    background-color: rgb(0, 196, 255);
+}
+
+.hero-sec h1
+{
+    font-size: 80px;
+    color: #22281e;
+    font-weight: bold;
+    text-align: center;
+    max-width: 930px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.dis-text
+{
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: #22281e;
+    text-align: center;
+}
+
+/* About us css start */
+
+.about-us
+{
+    background-color: #5313e5;
+    padding: 60px 0;
+}
+
+.about-us h2
+{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.about-us .dis-text
+{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* service sec css start */
+
+.service-div
+{
+    padding: 60px 50px;
+    background-image: url(../assets/images/service-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 196, 255);
+}
+.subtitle-wrapper {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding: 10px 18px 5px;
+    border-radius: 130px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.service-div h2
+{
+    font-size: 52px;
+    color: #22281e;
+    font-weight: bold;
+}
+
+.service-div p
+{
+    text-align: left;
+}
+
+.service-div .image-div img
+{
+    max-width: 100%;
+    width: 100%;
+}
+
+.card-s
+{
+    margin-top: 20px;
+}
+
+.card-s:last-child{
+    margin-bottom: 20px;
+}
+
+.card-s .ani-text
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card-s h4 {
+    font-size: 22px;
+    color: #22281e;
+    margin-bottom: 7px;
+}
+
+.card-s p {
+    font-size: 18px;
+    color: #626d6b;
+    margin-bottom: 0px;
+}
+
+/* Contact us css start */
+
+.contact-div
+{
+    background-image: url(../assets/images/contact-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    background-color: rgb(244, 248, 243);
+}
+
+.contact-div .bgg
+{
+    margin-top: 80px;
+    padding: 65px 60px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.contact-div h4
+{
+    margin-bottom: 8px;
+    font-size: 52px;
+    color: #22281e;
+    text-align: center;
+}
+
+.contact-div .form-label
+{
+    margin-bottom: 18px;
+    color: #22281e;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.22px;
+}
+
+.contact-div .form-control
+{
+    height: 80px;
+    margin-bottom: 0px;
+    padding: 11px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(34, 40, 30, 0.06);
+    border-radius: 194px;
+    background-color: rgb(244, 247, 243);
+    font-size: 22px;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+.s-btn
+{
+    padding: 20px 36px;
+    border-radius: 40px;
+    background-color: #5313e5;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 300ms;
+         -o-transition-duration: 300ms;
+            transition-duration: 300ms;
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    color: #fff;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.s-btn:hover
+{
+    background-color: #5213e5a8;
+}
+
+/* footer css start */
+
+.footer
+{
+    padding: 50px 30px 40px;
+    border-bottom: 1px solid rgb(228, 235, 243);
+    background-image: url(../assets/images/footer.png);
+    background-position: 0px 0px;
+    background-size: auto;
+}
+
+.footer ul
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.f-link
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f-link:hover
+{
+    color: #1a1b1fbf;
+}
+
+.footer-divider-two
+{
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(228, 235, 243);
+}
+
+.copy-right
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.copy-right h5
+{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.legal-link
+{
+    margin-left: 24px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.legal-link:hover
+{
+    color: #1a1b1fbf;
+}
+
+/* footer css end */
+
+
+/* Media css start */
+
+@media only screen and (max-width: 1200px)
+{
+    .hero-sec h1
+    {
+        font-size: 76px;
+    }
+    .hero-sec
+    {
+        padding: 80px 0;
+    }
+    .card-a
+    {
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 32px 38px 26px 20px;
+    }
+
+    .service-div h2, .contact-div h4
+    {
+        font-size: 42px;
+    }
+    .contact-div .bgg
+    {
+        margin-top: 36px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .hero-sec
+    {
+        padding: 60px 0;
+    }
+
+    .hero-sec h1 {
+        font-size: 56px;
+    }
+    
+    .about-us, .contact-div, .footer
+    {
+        padding: 40px 0;
+    }
+
+    .service-div
+    {
+        padding: 40px 30px;
+    }
+
+    .card-a
+    {
+        min-height: 430px;
+    }
+
+    .card-a h4
+    {
+        font-size: 28px;
+    }
+
+    .service-div h2, .contact-div h4, .about-us h2
+    {
+        font-size: 32px;
+    }
+    .card-s .ani-text
+    {
+        font-size: 32px;
+    }
+    .contact-div .bgg
+    {
+        padding: 40px;
+    }
+    .contact-div .form-control
+    {
+        height: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .hero-sec h1 {
+        font-size: 36px;
+    }
+    .card-a
+    {
+        min-height: auto;
+    }    
+    .copy-right
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .right-side
+    {
+        margin-top: 16px;
+    }
+
+    .legal-link
+    {
+        margin-left: 10px;
+
+    }
+    .footer ul
+    {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .navbar-brand img
+    {
+        max-width: 120px;
+    }
+
+    .navbar
+    {
+        padding: 10px 0;
+    }
+
+    .hero-sec
+    {
+        padding: 40px 0;
+    }
+
+    .hero-sec h1
+    {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .about-us, .contact-div, .footer
+    {
+        padding: 26px 0;
+    }
+    .service-div h2, .contact-div h4, .about-us h2
+    {
+        font-size: 28px;
+    }
+    .dis-text, .card-a p, .card-s p, .f-link, .copy-right h5, .legal-link
+    {
+        font-size: 16px;
+    }
+    
+    .service-div
+    {
+        padding: 26px 1.5rem;
+    }
+
+    .subtitle-wrapper    {
+        margin-bottom: 10px;
+    }
+    
+    .card-s h4
+    {
+        font-size: 18px;
+    }
+
+    .contact-div h4
+    {
+        margin-bottom: 10px;
+    }
+    .contact-div .bgg {
+        padding: 20px;
+    }
+    
+    .contact-div .form-label
+    {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contact-div .form-control
+    {
+        height: 60px;
+        font-size: 18px;
+    }
+    .s-btn
+    {
+        padding: 16px 26px;
+        margin-top: 20px;
+    }
+    .footer-divider-two
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contact-div .bgg
+    {
+        margin-top: 0;
+    }
+    
+}
+
+/* Media css end */
