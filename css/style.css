@@ -86,6 +86,11 @@ body {
     padding: 60px 0;
 }
 
+.about-us .container, .service-div .container
+{
+    max-width: 1460px;
+}
+
 .about-us h2
 {
     color: #fff;
@@ -173,6 +178,13 @@ body {
     font-size: 18px;
     color: #626d6b;
     margin-bottom: 0px;
+    text-align: justify;
+}
+
+.details-div-wrp
+{
+    display: flex;
+    gap: 60px;
 }
 
 /* Contact us css start */
@@ -440,6 +452,11 @@ body {
             -ms-flex-pack: center;
                 justify-content: center;
     }
+
+    .details-div-wrp
+    {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 575px)
@@ -480,7 +497,7 @@ body {
     
     .service-div
     {
-        padding: 26px 1.5rem;
+        padding: 26px 0;
     }
 
     .subtitle-wrapper    {
