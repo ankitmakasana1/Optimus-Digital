@@ -416,7 +416,7 @@ body {
 
 /* Media css start */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1432px) {
  .details-div-wrp {
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 }
