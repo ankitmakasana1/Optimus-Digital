@@ -416,6 +416,12 @@ body {
 
 /* Media css start */
 
+@media only screen and (max-width: 1200px) {
+ .details-div-wrp {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+}
+
 @media only screen and (max-width: 1200px)
 {
     .hero-sec h1
@@ -440,9 +446,6 @@ body {
     .contact-div .bgg
     {
         margin-top: 36px;
-    }
-    .details-div-wrp {
-        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     }
 }
 
